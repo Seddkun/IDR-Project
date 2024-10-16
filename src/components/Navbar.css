@@ -1,0 +1,25 @@
+/* src/components/Navbar.css */
+nav {
+    background-color: #0c3c7c; /* Color de fondo de la navegación */
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Color del texto del enlace */
+}
+
+.active {
+    font-weight: bold; /* Estilo para el enlace activo */
+    text-decoration: underline; /* Subrayar el enlace activo */
+}
